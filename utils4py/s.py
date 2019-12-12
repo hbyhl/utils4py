@@ -97,7 +97,7 @@ class TextUtils(object):
             r = max_len
 
         if l <= len(unicode_val) <= r:
-            if re.match(ur"^[\u4e00-\u9fa5]+$", unicode_val):
+            if re.match("^[\u4e00-\u9fa5]+$", unicode_val):
                 return True
         return False
 
