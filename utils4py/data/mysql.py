@@ -11,7 +11,7 @@ from utils4py.pymysql_pool import Pool, SqlShell
 
 _mysql_conf = ConfUtils.load_parser("data_source/mysql.conf")
 
-_conn_pool = dict()
+_conn_pool = dict() #配置池
 _conn_mutex = threading.RLock()
 
 

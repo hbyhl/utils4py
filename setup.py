@@ -28,6 +28,7 @@ setup(
         "redis",
         "gevent",
         "pymongo",
+        "pika",
     ],
     extras_require=extras_require,
 )
